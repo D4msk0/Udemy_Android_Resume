@@ -6,24 +6,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="35sp"
-        android:gravity="center_horizontal"
         android:text="Maarten van Amsterdam"
         android:textSize="35sp" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="329dp"
-        android:layout_height="229dp"
+        android:id="@+id/imageView2"
+        android:layout_width="288dp"
+        android:layout_height="233dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20sp"
-        app:srcCompat="@drawable/maarten" />
+        app:srcCompat="@mipmap/maarten_foreground" />
 
     <Button
         android:id="@+id/button"
