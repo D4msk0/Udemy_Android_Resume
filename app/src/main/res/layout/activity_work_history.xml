@@ -18,4 +18,19 @@
         android:textSize="24sp"
         tools:layout_editor_absoluteX="151dp"
         tools:layout_editor_absoluteY="73dp" />
+
+    <ScrollView
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent hendrerit ligula et ex pulvinar, finibus egestas sapien scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nunc rutrum sem non congue dapibus. Donec feugiat elit at magna tincidunt auctor. Proin non metus pretium, bibendum risus vel, imperdiet urna. Nulla eu mattis justo. Quisque lacinia eros a interdum cursus. Nam volutpat eros ac mauris hendrerit tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla elit est, tempus non fringilla nec, volutpat ac neque. Sed eget blandit enim.  Cras ut purus leo. Duis vel est egestas, finibus tortor eu, rhoncus lacus. Mauris iaculis tellus ut posuere tempor. Pellentesque vitae molestie eros. Pellentesque ac justo sit amet tortor consequat vehicula. Sed faucibus felis massa, et euismod ex maximus at. Ut sit amet finibus libero. Duis porta neque sit amet sapien mollis, id pellentesque lorem sagittis. Duis tincidunt vehicula lacus, pellentesque dapibus ipsum ornare nec. Nullam sed neque non nulla fermentum semper non a neque. Maecenas convallis magna quis nisi bibendum sagittis. Morbi tellus lorem, elementum vitae sagittis a, molestie tincidunt lorem. Sed euismod ex id odio ornare, in facilisis justo accumsan. Aenean diam sapien, suscipit sed urna tempor, mattis mollis felis. Etiam ligula ex, condimentum at tincidunt nec, vulputate quis nulla. Curabitur eu dapibus leo.  Pellentesque vestibulum hendrerit lobortis. Suspendisse congue, purus at laoreet mattis, velit augue molestie urna, at vehicula ipsum nisi eget leo. Nam euismod, dui vel sollicitudin dapibus, est nibh sagittis arcu, id rhoncus neque urna malesuada velit. Proin suscipit mauris vitae aliquet elementum. Pellentesque nec hendrerit ipsum. Sed mattis nibh magna, eget pellentesque diam ultricies sit amet. Donec ornare lorem tortor, vel fringilla nulla suscipit vitae.  Nunc consequat arcu bibendum ullamcorper dignissim. Pellentesque dui nisi, congue eget tincidunt non, tristique quis turpis. Mauris efficitur elementum nunc et auctor. Pellentesque condimentum rhoncus ex, finibus varius nunc viverra vitae. Morbi hendrerit facilisis diam, ac eleifend neque sagittis nec. Suspendisse rhoncus consequat egestas. Pellentesque a sem vitae libero feugiat tristique at eget quam. Nunc sit amet nunc risus. Cras fermentum venenatis sagittis. Integer nisi orci, ullamcorper vel fringilla vel, euismod vitae arcu. Praesent eu felis elit. In iaculis accumsan nunc, nec molestie dui lobortis in. Pellentesque congue arcu nec turpis hendrerit, non pharetra lectus mattis. In vestibulum metus id sollicitudin iaculis." />
+    </ScrollView>
+
 </LinearLayout>
