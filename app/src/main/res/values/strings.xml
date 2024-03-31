@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Resume</string>
+    <string name="maarten_van_amsterdam">Maarten van Amsterdam</string>
+    <string name="work_history">WORK HISTORY</string>
+    <string name="call_maarten">CALL MAARTEN</string>
+    <string name="email_maarten">EMAIL MAARTEN</string>
+    <string name="todo">TODO</string>
 </resources>

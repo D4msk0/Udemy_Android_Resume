@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="35sp"
-        android:text="Maarten van Amsterdam"
+        android:text="@string/maarten_van_amsterdam"
         android:textSize="35sp" />
 
     <ImageView
@@ -22,29 +22,31 @@
         android:layout_width="288dp"
         android:layout_height="233dp"
         android:layout_gravity="center_horizontal"
-        app:srcCompat="@mipmap/maarten_foreground" />
+        android:layout_marginTop="20sp"
+        app:srcCompat="@mipmap/maarten_foreground"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="500px"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20sp"
-        android:text="WORK HISTORY" />
+        android:text="@string/work_history" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="500px"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10sp"
-        android:text="CALL MAARTEN" />
+        android:text="@string/call_maarten" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="500px"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10sp"
-        android:text="EMAIL MAARTEN" />
+        android:text="@string/email_maarten" />
 </LinearLayout>
