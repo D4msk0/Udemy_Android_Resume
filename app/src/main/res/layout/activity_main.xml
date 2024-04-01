@@ -23,8 +23,8 @@
         android:layout_height="233dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20sp"
-        app:srcCompat="@mipmap/maarten_foreground"
-        android:contentDescription="@string/todo" />
+        android:contentDescription="@string/todo"
+        app:srcCompat="@mipmap/maarten_foreground" />
 
     <Button
         android:id="@+id/workHistoryButton"
@@ -35,7 +35,7 @@
         android:text="@string/work_history" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/callButton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -43,7 +43,7 @@
         android:text="@string/call_maarten" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/emailButton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
